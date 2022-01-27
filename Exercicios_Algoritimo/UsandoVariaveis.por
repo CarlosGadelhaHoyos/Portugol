@@ -116,8 +116,7 @@ programa
 
 		real altura
 		real peso
-		real resultado
-		
+		real resultado = 2.5 //adicionando um valor para parar o problema
 		
 		escreva("\n\nQual a sua altura: ")
 		leia(altura)
@@ -126,6 +125,7 @@ programa
 
 		resultado = peso/(altura^2)
 
+		//por algum motivo o erro de inicialização ocorre aqui, mas não no último comando
 		se(resultado > 18.5 e resultado < 25){
 
 			escreva("Você está no peso ideal! IMC: " + resultado)
@@ -137,7 +137,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1716; 
+ * @POSICAO-CURSOR = 1767; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
