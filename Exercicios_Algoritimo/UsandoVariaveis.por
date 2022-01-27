@@ -30,8 +30,8 @@ programa
 		escreva("[2] Bom te conhecer\n")
 		escreva("[3] Par ou ímpar\n")
 		escreva("[4] Média\n\n")
-	     //escreva("[5] IMC")		Criar mais métodos para exemplificação.
-	     //escreva("[6]")
+	     escreva("[5] IMC")		
+	     //escreva("[6]")		Criar mais métodos para exemplificação.
 	     //escreva("[7]")
 	     // .
 	     // .
@@ -50,6 +50,9 @@ programa
 			pare
 			
 			caso 4 : media()
+			pare
+
+			caso 5 : imc()
 			pare
 		}
 	}
@@ -108,39 +111,33 @@ programa
 
 		escreva("A média é igual a " + (x+y)/2 + "\n\n")
 	}
+
+	funcao vazio imc(){
+
+		real altura
+		real peso
+		real resultado
+		
+		
+		escreva("\n\nQual a sua altura: ")
+		leia(altura)
+		escreva("Qual o seu peso: ")
+		leia(peso)
+
+		resultado = peso/(altura^2)
+
+		se(resultado > 18.5 e resultado < 25){
+
+			escreva("Você está no peso ideal! IMC: " + resultado)
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1342; 
+ * @POSICAO-CURSOR = 1716; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
