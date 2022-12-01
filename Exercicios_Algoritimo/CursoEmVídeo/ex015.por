@@ -8,21 +8,32 @@ programa
 		 * valor de 200 p/dia
 		*/
 
-		escreva("Quantos dias foram trabalhadas nesse mes?\nR: ")
+		faca{
+			escreva("Quantos dias foram trabalhadas nesse mes?\nR: ")
 
-		inteiro dias
-		leia(dias)
-		inteiro salario = dias * 200
+			inteiro dias
+			leia(dias)
+			inteiro salario = dias * 200
 
-		escreva("O salario final ficou igual a: R$" + salario +",00.")
+			escreva("O salario final ficou igual a: R$" + salario +",00.")
 
-		//fazer uma condicional para verificar a quantidade de dias
+			//fazer uma condicional para verificar a quantidade de dias
 
-		se(dias > 31 ou dias < 0){
+			se(dias > 31 ou dias < 0){
 
-			escreva("ATENCAO! Provavelmente o valor inserido foi incorreto")
-			escreva("Tente novamente.")
-		}
+				escreva("ATENCAO! Provavelmente o valor inserido foi incorreto")
+			}
+
+			screva("Deseja tentar novamente? (s/n)\nR: ")
+				
+			caracter resposta
+			leia(resposta)
+				
+			se(resposta){
+				
+			}
+			
+		}enquanto(resposta == 's')
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 428; 
+ * @POSICAO-CURSOR = 729; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
