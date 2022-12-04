@@ -5,7 +5,8 @@ So I'll do it! 100 proposed exercises, so there will be 100 exercises done.
 
 The exercises in this repository were done with the Portugol Studio software. It is a text editor for Algorithms and uses Brazilian Portuguese words in its syntax. I used to use Visualg as my text editor, but after I find Portugol, I prefered it's visuals, simplicity and others things instead of Visualg.
 
-![curso em video logo](\img\cursoemvideo-logo.png)
+![](https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png)
+
 
 [curso em video official site]: https://www.cursoemvideo.com
 [curso em video youtube channel]: https://www.youtube.com/@CursoemVideo
