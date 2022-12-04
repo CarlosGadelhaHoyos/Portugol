@@ -1,9 +1,9 @@
 # Algorithm Exercises
 ---
-**Hello World!** This repository will be used to show the exercises proposed in the discipline of algorithms of the Video Course, which is available on the [youtube platform][curso em video youtube channel], and on its [official website][curso em video official site]. The document presented in the course had 100 examples of problems to solve using an algorithm.
+**Hello World!** This repository will be used to show the exercises proposed in the discipline of algorithms of the Curso em video, which is available on the [youtube platform][curso em video youtube channel], and on its [official website][curso em video official site]. The document presented in the course had 100 examples of problems to solve using algorithm.
 So I'll do it! 100 proposed exercises, so there will be 100 exercises done.
 
-The exercises in this repository were done with the Portugol Studio software. It is a text editor for Algorithms and uses Brazilian Portuguese words in its syntax. I used to use Visualg as my text editor, but after I find Portugol, I prefered it's visuals, simplicity and others things instead of Visualg.
+The exercises in this repository were done with the Portugol Studio software. It is a text editor for Algorithms and uses Brazilian Portuguese words in its syntax. I used to use Visualg as my text editor, but after I find Portugol, I prefered it's visuals, simplicity and other things instead of Visualg.
 
 ![](https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png)
 
