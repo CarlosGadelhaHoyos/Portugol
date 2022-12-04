@@ -8,4 +8,4 @@ The exercises in this repository were done with the Portugol Studio software. It
 ![curso em video logo](\img\cursoemvideo-logo.png)
 
 [curso em video official site]: https://www.cursoemvideo.com
-[curso em video youtube channel]: https://www.cursoemvideo.com
+[curso em video youtube channel]: https://www.youtube.com/@CursoemVideo
