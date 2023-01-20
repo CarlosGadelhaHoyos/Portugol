@@ -11,7 +11,7 @@ programa
 
 	funcao vazio showInterface(){
 
-		escreva("====Students final test average====")
+		escreva("\n====Students final test average====")
 		escreva("\nWrite the first test grade: ")
 		leia(firstGrade)
 		escreva("Write the second test grade: ")
@@ -23,13 +23,26 @@ programa
 		a = (fg+sg)/2 
 		retorne a
 	}
+
+	funcao vazio isPassed (real avg){
+
+		se (avg < 7){
+
+			escreva("The student didn't perform well. His average is under the expected\nStudent average: " + avg + "\nNecessary grande: 7.0")
+		}
+	}
+
+	funcao vazio showFinalAverage (real avg){
+
+		escreva("The final result was " + avg)
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 87; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
