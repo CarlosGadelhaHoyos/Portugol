@@ -1,12 +1,14 @@
 programa
 {
-	real firstGrade
-	real secondGrade
-	real average
+	real firstGrade = 0
+	real secondGrade = 0
+	real average = 0
 	
 	funcao inicio()
 	{
-		
+		showInterface()
+		calculateFinalAverage(firstGrade, secondGrade, average)
+		isPassed(average)
 	}
 
 	funcao vazio showInterface(){
@@ -42,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 87; 
+ * @POSICAO-CURSOR = 698; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
