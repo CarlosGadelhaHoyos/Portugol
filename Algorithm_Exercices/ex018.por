@@ -11,10 +11,17 @@ programa
 
 	funcao vazio showInterface(){
 
+		escreva("====Students final test average====")
+		escreva("\nWrite the first test grade: ")
+		leia(firstGrade)
+		escreva("Write the second test grade: ")
+		leia(secondGrade)
 	}
 	
-	funcao calculateFinalAverage (){
+	funcao real calculateFinalAverage (real fg, real sg, real a){
 
+		a = (fg+sg)/2 
+		retorne a
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 169; 
+ * @POSICAO-CURSOR = 301; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
