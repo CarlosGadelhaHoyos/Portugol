@@ -3,7 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		escreva("======Par ou Ímpar======")
+		escreva("Digite um número inteiro\nR: ")
+		inteiro num
+		leia(num)
+
+		se (num % 2 != 0){
+			escreva(num + " é um número ímpar")
+		}senao{
+			escreva(num + " é um número par")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 252; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
