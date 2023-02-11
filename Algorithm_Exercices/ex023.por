@@ -4,19 +4,19 @@ programa
 	funcao inicio()
 	{
 		cadeia nome
-		logico sexo
+		caracter sexo
 		real valorCompra
 		real valorDescontoAplicado
 		
-		escreva("\n====Promoção dia das mulheres====\n")
-		escreva("\nDigite seu nome: \n")
+		escreva("====Promoção dia das mulheres====\n")
+		escreva("Digite seu nome: ")
 		leia(nome)
-		escreva("\nQual seu sexo? Feminino[F] Masculino[M]\nR: \n")
+		escreva("Qual seu sexo? Feminino[F] Masculino[M]\nR: ")
 		leia(sexo)
-		escreva("\nQual o valor da compra?\nR: R$ \n")
+		escreva("Qual o valor da compra?\nR: R$ ")
 		leia(valorCompra)
 
-		se(sexo == falso){
+		se(sexo == 'm'){
 			valorDescontoAplicado = valorCompra - (valorCompra*3)/100
 			escreva(nome + ", o valor final ficou por R$" + valorDescontoAplicado)
 		}senao{
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 578; 
+ * @POSICAO-CURSOR = 362; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
