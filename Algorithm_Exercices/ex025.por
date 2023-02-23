@@ -16,9 +16,9 @@ programa
 		leia(seg3)
 
 		se (seg1 < seg2 + seg3 e seg2 < seg1 + seg3 e seg3 < seg1 + seg2){
-			escreva("Com as medidas cedidas, os três segmentos podem formar sim um trangulo")
+			escreva("\nCom as medidas cedidas, os três segmentos podem formar sim um trangulo")
 		}senao{
-			escreva("Com as medidas cedidas, nao ha como fazer um triangulo com os segmentos")
+			escreva("\nCom as medidas cedidas, nao ha como fazer um triangulo com os segmentos")
 		}
 	}
 }
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 523; 
+ * @POSICAO-CURSOR = 353; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
