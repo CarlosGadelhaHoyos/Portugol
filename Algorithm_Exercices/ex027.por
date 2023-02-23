@@ -12,11 +12,11 @@ programa
 		leia(nota2)
 
 		se((nota1+nota2)/2 < 5){
-			escreva("\nO aluno está reprovado")
+			escreva("\nO aluno está reprovado. Média: " + (nota1+nota2)/2)
 		}senao se((nota1+nota2)/2 < 5 e (nota1+nota2)/2 < 7){
-			escreva("\nO aluno está em recuperação")
+			escreva("\nO aluno está em recuperação. Média: " + (nota1+nota2)/2)
 		}senao{
-			escreva("\nAluno aprovado")
+			escreva("\nAluno aprovado. Média: " + (nota1+nota2)/2)
 		}
 	}
 }
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 381; 
+ * @POSICAO-CURSOR = 263; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
