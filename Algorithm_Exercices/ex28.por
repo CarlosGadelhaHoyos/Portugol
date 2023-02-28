@@ -3,7 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		real terrenoComprimento, terrenoLargura
+		cadeia classificacoesTerreno [] = {"TERRENO POPULAR", "TERRENO MASTER", "TERRENO VIP"}
+	
+		escreva("Qual o tamanho do terreno?\n\nComprimento: ")
+		leia(terrenoComprimento)
+		escreva("Largura: ")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
