@@ -12,8 +12,16 @@ programa
 		escreva("Digite o tamanho do segundo segmento: ")
 		leia(seg2)
 		escreva("Digite o tamanho do terceiro segmento: ")
-
-		escreva("Com os tamanhos dados anteriormente, o triângulo é: " /*+ classificação*/)
+		leia(seg3)
+		
+		se (seg1 < seg2 + seg3 e seg2 < seg1 + seg3 e seg3 < seg1 + seg2){
+			escreva("\nCom as medidas cedidas, os três segmentos podem formar sim um trangulo")
+		}senao{
+			escreva("\nCom as medidas cedidas, nao ha como fazer um triangulo com os segmentos")
+		}
+		
+		escreva("\nCom os tamanhos dados anteriormente, o triângulo é: " /*+ classificação*/)
+		
 	}
 
 	/*
