@@ -3,8 +3,14 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro seg1
+		inteiro seg2
+		inteiro seg3
+		
 		escreva("Digite o tamanho do primeiro segmento: ")
+		leia(seg1)
 		escreva("Digite o tamanho do segundo segmento: ")
+		leia(seg2)
 		escreva("Digite o tamanho do terceiro segmento: ")
 
 		escreva("Com os tamanhos dados anteriormente, o triângulo é: " /*+ classificação*/)
@@ -25,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 281; 
+ * @POSICAO-CURSOR = 560; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
