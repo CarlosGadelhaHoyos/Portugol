@@ -1,9 +1,32 @@
 programa
 {
+	inclua biblioteca Util 
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		cadeia instrumentoJogador
+		cadeia instrumentoMaquina
+		
+	}
+
+	funcao vazio escreverTopo(){
+		
+	}
+
+	funcao vazio setInstrumentoMaquina(){
+		
+	}
+
+	funcao vazio compararInstrumentos(){
+		
+	}
+
+	funcao vazio ganhar(){
+		
+	}
+
+	funcao vazio perder(){
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 158; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
