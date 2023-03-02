@@ -9,6 +9,9 @@ programa
 
 		escreverTopo()
 		leia(instrumentoJogador)
+		instrumentoMaquina = setInstrumentoMaquina()
+		compararInstrumentos(instrumentoJogador, instrumentoMaquina)
+		//leia(instrumentoJogador)
 	}
 
 	funcao vazio escreverTopo(){
@@ -21,16 +24,28 @@ programa
 		retorne i
 	}
 
-	funcao vazio compararInstrumentos(){
-		
+	funcao vazio compararInstrumentos(inteiro j, inteiro m){
+		se(j == 1 e m == 2){
+			perder()
+		}senao se(j == 1 e m == 3){
+			ganhar()
+		}senao se(j == 2 e m == 3){
+			perder()
+		}senao se(j == 2 e m == 1){
+			ganhar()
+		}senao se(j == 3 e m == 1){
+			perder()
+		}senao se(j == 3 e m == 2){
+			ganhar()
+		}
 	}
 
 	funcao vazio ganhar(){
-		
+		escreva("Você ganhou!")
 	}
 
 	funcao vazio perder(){
-		
+		escreva("Você perdeu!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 849; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
