@@ -47,13 +47,31 @@ programa
 	funcao vazio perder(){
 		escreva("Você perdeu!")
 	}
+
+	funcao cadeia mostrarInstrumento(inteiro instrumento){
+		cadeia classificacao
+		
+		escolha(instrumento){
+			caso 1:
+				classificacao = "PEDRA"
+			pare
+			caso 2:
+				classificacao = "PAPEL"
+			pare
+			caso 3:
+				classificacao = "TESOURA"
+			pare
+		}
+
+		retorne classificacao
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 849; 
+ * @POSICAO-CURSOR = 1201; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
