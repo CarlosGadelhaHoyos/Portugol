@@ -15,8 +15,10 @@ programa
 		escreva("====PEDRA, PAPEL, TESOURA====\n\nPedra[1]\nPapel[2]\nTesoura[3]\n\nEscolha seu instrumento: ")
 	}
 
-	funcao vazio setInstrumentoMaquina(){
-		
+	funcao inteiro setInstrumentoMaquina(){
+		inteiro i
+		i = Util.sorteia(1, 3)
+		retorne i
 	}
 
 	funcao vazio compararInstrumentos(){
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 303; 
+ * @POSICAO-CURSOR = 164; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
