@@ -11,7 +11,6 @@ programa
 		leia(instrumentoJogador)
 		instrumentoMaquina = setInstrumentoMaquina()
 		compararInstrumentos(instrumentoJogador, instrumentoMaquina)
-		//leia(instrumentoJogador)
 	}
 
 	funcao vazio escreverTopo(){
@@ -26,30 +25,43 @@ programa
 
 	funcao vazio compararInstrumentos(inteiro j, inteiro m){
 		se(j == 1 e m == 2){
-			perder()
+			perder(j,m)
 		}senao se(j == 1 e m == 3){
-			ganhar()
+			ganhar(j,m)
 		}senao se(j == 2 e m == 3){
-			perder()
+			perder(j,m)
 		}senao se(j == 2 e m == 1){
-			ganhar()
+			ganhar(j,m)
 		}senao se(j == 3 e m == 1){
-			perder()
+			perder(j,m)
 		}senao se(j == 3 e m == 2){
-			ganhar()
+			ganhar(j,m)
+		}senao se (j == m){
+			empatar(j, m)
+		}senao{
+			escreva("Valor incorreto inserido\nFinalizando programa...")
 		}
 	}
 
-	funcao vazio ganhar(){
-		escreva("Você ganhou!")
+	funcao vazio ganhar(inteiro j, inteiro m){
+		cadeia classInJogador = mostrarInstrumento(j)
+		cadeia classInMaquina = mostrarInstrumento(m)
+		escreva("\nVocê ganhou!\n")
+		escreva(classInJogador + " X " + classInMaquina)
 	}
 
-	funcao vazio perder(){
-		escreva("Você perdeu!")
+	funcao vazio perder(inteiro j, inteiro m){
+		escreva("\nVocê perdeu!\n")
+		escreva(mostrarInstrumento(j) + " X " + mostrarInstrumento(m))
+	}
+
+	funcao vazio empatar(inteiro j, inteiro m){
+		escreva("\nVocê empatou!\n")
+		escreva(mostrarInstrumento(j) + " X " + mostrarInstrumento(m))
 	}
 
 	funcao cadeia mostrarInstrumento(inteiro instrumento){
-		cadeia classificacao
+		cadeia classificacao = ""
 		
 		escolha(instrumento){
 			caso 1:
@@ -71,7 +83,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1201; 
+ * @POSICAO-CURSOR = 945; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
