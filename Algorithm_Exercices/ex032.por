@@ -7,7 +7,10 @@ programa
 		inteiro numMaquina
 		inteiro numJogador
 		cabecalho()
+		leia(numJogador)
+		
 		numMaquina = escolherNumMaquina()
+		compararNumeros(numMaquina, numJogador)
 	}
 
 	funcao vazio cabecalho(){
@@ -18,13 +21,21 @@ programa
 	funcao inteiro escolherNumMaquina(){
 		retorne Util.sorteia(1, 5)
 	}
+
+	funcao vazio compararNumeros(inteiro i, inteiro j){
+		se (i == j){
+			escreva("\nVOCÊ GANHOU!\n\nNúmero escolhido pela máquina: " + i)
+		}senao{
+			escreva("\nVOCÊ PERDEU!\n\nNúmero escolhido pela máquina: " + i)
+		}
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 98; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
