@@ -25,6 +25,8 @@ programa
 	funcao vazio compararNumeros(inteiro i, inteiro j){
 		se (i == j){
 			escreva("\nVOCÊ GANHOU!\n\nNúmero escolhido pela máquina: " + i)
+		}senao se(j > 5 ou j < 1){
+			escreva("\nERRO: Valor digitado não válido")
 		}senao{
 			escreva("\nVOCÊ PERDEU!\n\nNúmero escolhido pela máquina: " + i)
 		}
@@ -35,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 423; 
+ * @POSICAO-CURSOR = 636; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
