@@ -1,5 +1,7 @@
 programa
 {
+	inclua biblioteca Matematica
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
@@ -9,6 +11,17 @@ programa
 		escreva("\nAté 10h por mes: 2 pontos por hora\nEntre 10h e 20h por mes: 5 pontos por hora\nAcima de 20 horas: 10 pontos por hora\n")
 		escreva("\nQuantas horas você exercitou no mes?\nR: ")
 		
+		leia(hrsExercitadas)
+
+		se(hrsExercitadas <= 10 e hrsExercitadas > 0){
+			escreva("\nVoce recebeu o total de " + ((Tipos.real_para_inteiro(hrsExercitadas) * 2)) + " pontos. Totalizando R$" + Matematica.arredondar((Tipos.real_para_inteiro(hrsExercitadas) * 0.05 * 2), 2))
+		}senao se(hrsExercitadas > 10 e hrsExercitadas <= 20){
+			escreva("\nVoce recebeu o total de " + ((Tipos.real_para_inteiro(hrsExercitadas) * 5)) + " pontos. Totalizando R$" + Matematica.arredondar((Tipos.real_para_inteiro(hrsExercitadas) * 0.05 * 5), 2))
+		}senao se(hrsExercitadas > 20){
+			escreva("\nVoce recebeu o total de " + ((Tipos.real_para_inteiro(hrsExercitadas) * 10)) + " pontos. Totalizando R$" + Matematica.arredondar((Tipos.real_para_inteiro(hrsExercitadas) * 0.05 * 10), 2))
+		}senao{
+			escreva("\nInfelizmente, quem nao fez exercicios, nao pode receber beneficios")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
