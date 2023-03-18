@@ -3,7 +3,17 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro tempoEmpresa
+		caracter genero
+		real salario
 		
+		escreva("==== Reajuste salarial ====\n\n")
+		escreva("Quantos anos você tem na empresa?\nR: ")
+		leia(tempoEmpresa)
+		escreva("Qual seu gênero? Masculino [m], Feminino [f], Outro [o]\nR: ")
+		leia(genero)
+		escreva("Qual seu salário?\nR: ")
+		leia(salario)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 40; 
+ * @POSICAO-CURSOR = 139; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
