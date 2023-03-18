@@ -14,6 +14,14 @@ programa
 		leia(genero)
 		escreva("Qual seu salário?\nR: ")
 		leia(salario)
+
+		se(genero != 'm' e tempoEmpresa < 15){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*5)/100))
+		}senao se(genero != 'm' e tempoEmpresa > 15 e tempoEmpresa < 20){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*12)/100))
+		}senao se(genero != 'm' e tempoEmpresa > 20){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*23)/100))
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 139; 
+ * @POSICAO-CURSOR = 757; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
