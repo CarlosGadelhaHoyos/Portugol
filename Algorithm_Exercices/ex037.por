@@ -22,6 +22,14 @@ programa
 		}senao se(genero != 'm' e tempoEmpresa > 20){
 			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*23)/100))
 		}
+
+		se(genero == 'm' e tempoEmpresa < 20){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*3)/100))
+		} senao se(genero == 'm' e tempoEmpresa > 20 e tempoEmpresa < 30){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*13)/100))
+		}senao se(genero == 'm' e tempoEmpresa > 30){
+			escreva("Com o reajuste, o salário final ficou R$" + (salario+(salario*25)/100))
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 757; 
+ * @POSICAO-CURSOR = 1182; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
