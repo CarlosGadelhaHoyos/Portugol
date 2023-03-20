@@ -3,7 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		
+		para(inteiro i = 100; i >= 0; i-=5){
+			escreva(i + " ")
+		}
+		escreva("Acabou")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 40; 
+ * @POSICAO-CURSOR = 94; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
