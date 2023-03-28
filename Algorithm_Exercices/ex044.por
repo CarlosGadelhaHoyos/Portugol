@@ -12,7 +12,6 @@ programa
 		escreva("Digite um valor inteiro para ser o incremento da contagem: ")
 		leia(incremento)
 		escreva("====Contagem====\n\n")
-		escreva(comeco + " " + fim + " " + incremento)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 408; 
+ * @POSICAO-CURSOR = 37; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
