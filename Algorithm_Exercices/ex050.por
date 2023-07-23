@@ -10,9 +10,21 @@ programa
 			numeroSort[c] = Util.sorteia(1, 10)
 		}
 
+		escreva("\n========================\n\n")
+		
 		para(inteiro c = 0; c <= 9; c++){
-			escreva("=================================")
+			
 			escreva("Numeros sorteados: " + numeroSort[c] + "\n")
+		}
+		
+		escreva("\n========================\n\n")
+
+		para(inteiro c = 0; c <= 9; c++){
+
+			se(numeroSort[c] > 5){
+		
+				escreva("Numeros maiores que 5: " + numeroSort[c] + "\n")
+			}
 		}
 	}
 }
@@ -21,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 246; 
+ * @POSICAO-CURSOR = 500; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
