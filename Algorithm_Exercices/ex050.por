@@ -26,6 +26,16 @@ programa
 				escreva("Numeros maiores que 5: " + numeroSort[c] + "\n")
 			}
 		}
+
+		escreva("\n========================\n\n")
+
+		para(inteiro c = 0; c <= 9; c++){
+
+			se(numeroSort[c] % 3 == 0){
+		
+				escreva("Numeros divisíveis por 3: " + numeroSort[c] + "\n")
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 500; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
